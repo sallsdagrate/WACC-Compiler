@@ -1,0 +1,119 @@
+wacc_examples/invalid/syntaxErr/array/arrayExpr.wacc
+# array literals are not first-class expressions
+wacc_examples/invalid/syntaxErr/basic/badComment.wacc
+# program has missing comment declaration
+wacc_examples/invalid/syntaxErr/basic/badComment2.wacc
+# program has missing in-line comment declaration
+wacc_examples/invalid/syntaxErr/basic/badEscape.wacc
+# program has unacceptable escape character
+wacc_examples/invalid/syntaxErr/basic/beginNoend.wacc
+# begin missing closing end
+wacc_examples/invalid/syntaxErr/basic/bgnErr.wacc
+# begin token typo
+wacc_examples/invalid/syntaxErr/basic/multipleBegins.wacc
+# begin missing closing end
+wacc_examples/invalid/syntaxErr/basic/noBody.wacc
+# program missing body
+wacc_examples/invalid/syntaxErr/basic/skpErr.wacc
+# skip typo
+wacc_examples/invalid/syntaxErr/basic/unescapedChar.wacc
+# unescaped double quote
+wacc_examples/invalid/syntaxErr/expressions/missingOperand1.wacc
+# operator missing first operand
+wacc_examples/invalid/syntaxErr/expressions/missingOperand2.wacc
+# operator missing second operand
+wacc_examples/invalid/syntaxErr/expressions/printlnConcat.wacc
+# string concatenation is not part of the language
+wacc_examples/invalid/syntaxErr/function/badlyNamed.wacc
+# function return type and name are conflated
+wacc_examples/invalid/syntaxErr/function/badlyPlaced.wacc
+# program has function before begin
+wacc_examples/invalid/syntaxErr/function/funcExpr.wacc
+# function calls are not first-class expressions
+wacc_examples/invalid/syntaxErr/function/funcExpr2.wacc
+# trying to call a function in a general expression
+wacc_examples/invalid/syntaxErr/function/functionConditionalNoReturn.wacc
+# function body missing return or exit statement on a path
+wacc_examples/invalid/syntaxErr/function/functionEndingNotReturn.wacc
+# function body not terminated with return or exit statement
+wacc_examples/invalid/syntaxErr/function/functionLateDefine.wacc
+# attempted function definition after body begun
+wacc_examples/invalid/syntaxErr/function/functionMissingCall.wacc
+# program missing call token at function use
+wacc_examples/invalid/syntaxErr/function/functionMissingPType.wacc
+# program missing parameter type in function
+wacc_examples/invalid/syntaxErr/function/functionMissingParam.wacc
+# program extra missing parameter in function definition
+wacc_examples/invalid/syntaxErr/function/functionMissingType.wacc
+# program missing return type of function
+wacc_examples/invalid/syntaxErr/function/functionNoReturn.wacc
+# function body missing return or exit statement
+wacc_examples/invalid/syntaxErr/function/functionReturnInLoop.wacc
+# function body missing a guaranteed return (the loop might not be entered)
+wacc_examples/invalid/syntaxErr/function/functionScopeDef.wacc
+# attempted function definition in new scope
+wacc_examples/invalid/syntaxErr/function/mutualRecursionNoReturn.wacc
+# function body of r2 missing return
+wacc_examples/invalid/syntaxErr/function/noBodyAfterFuncs.wacc
+# program missing body after function declaration
+wacc_examples/invalid/syntaxErr/function/thisIsNotC.wacc
+# Uses C-style pointers. This is WACC, not C.
+wacc_examples/invalid/syntaxErr/if/ifNoelse.wacc
+# if missing else clause
+wacc_examples/invalid/syntaxErr/if/ifNofi.wacc
+# if missing closing fi
+wacc_examples/invalid/syntaxErr/if/ifNothen.wacc
+# if missing then clause
+wacc_examples/invalid/syntaxErr/if/ifiErr.wacc
+# if typo
+wacc_examples/invalid/syntaxErr/literals/charLiteralSingle.wacc
+# Characters can have at most one character in them!
+wacc_examples/invalid/syntaxErr/literals/stringLiteralNoNewlines.wacc
+# Strings cannot be split across lines
+wacc_examples/invalid/syntaxErr/literals/stringLiteralOnlyAscii.wacc
+# Strings must only contain ASCII
+wacc_examples/invalid/syntaxErr/pairs/badLookup01.wacc
+# try to directly print pair's first element
+wacc_examples/invalid/syntaxErr/pairs/badLookup02.wacc
+# try to directly print pair's second element
+wacc_examples/invalid/syntaxErr/pairs/elemOfNonPair.wacc
+# Trying to get the fst or snd of a non-pair.
+wacc_examples/invalid/syntaxErr/pairs/fstNull.wacc
+# call fst on a null pair literal
+wacc_examples/invalid/syntaxErr/pairs/noNesting.wacc
+# pair types cannot be nested
+wacc_examples/invalid/syntaxErr/pairs/sndNull.wacc
+# call snd on a null pair literal
+wacc_examples/invalid/syntaxErr/print/printlnCharArry.wacc
+# You cannot directly print a char[] in WACC
+wacc_examples/invalid/syntaxErr/sequence/doubleSeq.wacc
+# missing sequential composition
+wacc_examples/invalid/syntaxErr/sequence/emptySeq.wacc
+# extra sequential composition
+wacc_examples/invalid/syntaxErr/sequence/endSeq.wacc
+# extra sequential composition 
+wacc_examples/invalid/syntaxErr/sequence/extraSeq.wacc
+# extra sequential composition
+wacc_examples/invalid/syntaxErr/sequence/missingSeq.wacc
+# missing sequential composition
+wacc_examples/invalid/syntaxErr/variables/badintAssignments.wacc
+# bad integer assignments - multiple syntax errors
+wacc_examples/invalid/syntaxErr/variables/badintAssignments1.wacc
+# bad integer assignment - whitespace should delimit ints
+wacc_examples/invalid/syntaxErr/variables/badintAssignments2.wacc
+# bad integer assignments - malformed int literal
+wacc_examples/invalid/syntaxErr/variables/bigIntAssignment.wacc
+# int assignment overlow
+wacc_examples/invalid/syntaxErr/variables/varNoName.wacc
+# variable declaration missing variable name
+wacc_examples/invalid/syntaxErr/while/donoErr.wacc
+# done typo
+wacc_examples/invalid/syntaxErr/while/dooErr.wacc
+# do typo
+wacc_examples/invalid/syntaxErr/while/whilErr.wacc
+# while typo
+wacc_examples/invalid/syntaxErr/while/whileNodo.wacc
+# while missing opening do
+wacc_examples/invalid/syntaxErr/while/whileNodone.wacc
+# while missing closing done
+fin.

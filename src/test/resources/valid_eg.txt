@@ -1,0 +1,443 @@
+wacc_examples/valid/IO/IOLoop.wacc
+# simple input/output loop
+wacc_examples/valid/IO/IOSequence.wacc
+# basic input/output sequence
+wacc_examples/valid/IO/print/hashInProgram.wacc
+# In-line comments and printing #
+wacc_examples/valid/IO/print/multipleStringsAssignment.wacc
+# multiple string assignments and comparisons
+wacc_examples/valid/IO/print/print-backspace.wacc
+# simple print statement off a string with a backspace character
+wacc_examples/valid/IO/print/print.wacc
+# simple print statement
+wacc_examples/valid/IO/print/printBool.wacc
+# basic Boolean printing
+wacc_examples/valid/IO/print/printChar.wacc
+# basic character printing
+wacc_examples/valid/IO/print/printCharArray.wacc
+# printing the contents of a char[] is possible via an intermediate variable
+wacc_examples/valid/IO/print/printCharAsString.wacc
+# character array treated as a string
+wacc_examples/valid/IO/print/printEscChar.wacc
+# basic escaped character printing
+wacc_examples/valid/IO/print/printInt.wacc
+# basic Integer printing
+wacc_examples/valid/IO/print/println.wacc
+# simple println statement
+wacc_examples/valid/IO/read/echoBigInt.wacc
+# echo the user's input int
+wacc_examples/valid/IO/read/echoBigNegInt.wacc
+# echo the user's input int
+wacc_examples/valid/IO/read/echoChar.wacc
+# echo the user's input char
+wacc_examples/valid/IO/read/echoInt.wacc
+# echo the user's input int
+wacc_examples/valid/IO/read/echoNegInt.wacc
+# echo the user's input int
+wacc_examples/valid/IO/read/echoPuncChar.wacc
+# echo the user's input char
+wacc_examples/valid/IO/read/read.wacc
+# simple read statement
+wacc_examples/valid/advanced/binarySortTree.wacc
+# The program reads n (number of integers), then n integers. After each input, 
+wacc_examples/valid/advanced/hashTable.wacc
+# This program is interactive. We implement a hash table containing integers and we play with it.
+wacc_examples/valid/advanced/ticTacToe.wacc
+# This is a program that allows a human to play Tic Tac Toe with a smart AI. 
+wacc_examples/valid/array/array.wacc
+# moderate complexity array manipulations
+wacc_examples/valid/array/arrayBasic.wacc
+# basic array declaration and assignment
+wacc_examples/valid/array/arrayEmpty.wacc
+# empty array declaration (seems to error currently)
+wacc_examples/valid/array/arrayIndexMayBeArrayIndex.wacc
+# Testing recursive array indexing
+wacc_examples/valid/array/arrayLength.wacc
+# check length of array
+wacc_examples/valid/array/arrayLookup.wacc
+# check first element of array
+wacc_examples/valid/array/arrayNested.wacc
+# basic array declaration and assignment
+wacc_examples/valid/array/arrayOnHeap.wacc
+# ensures that arrays are heap allocated
+wacc_examples/valid/array/arrayPrint.wacc
+# print the contents of a simple array
+wacc_examples/valid/array/arraySimple.wacc
+# simple array assignment and lookup
+wacc_examples/valid/array/emptyArrayAloneIsFine.wacc
+# this is fine
+wacc_examples/valid/array/emptyArrayNextLine.wacc
+# This should work just fine
+wacc_examples/valid/array/emptyArrayPrint.wacc
+# basic array declaration and print after
+wacc_examples/valid/array/emptyArrayReplace.wacc
+# it should be possible to reassign to an array
+wacc_examples/valid/array/emptyArrayScope.wacc
+# Scoping shouldn't affect arrays
+wacc_examples/valid/array/modifyString.wacc
+# create and modify string as array of characters
+wacc_examples/valid/array/printRef.wacc
+# basic array (reference) printing
+wacc_examples/valid/basic/exit/exit-1.wacc
+# common error exit statement
+wacc_examples/valid/basic/exit/exitBasic.wacc
+# basic exit statement
+wacc_examples/valid/basic/exit/exitBasic2.wacc
+# basic exit statement
+wacc_examples/valid/basic/exit/exitWrap.wacc
+# exit with wrapped int
+wacc_examples/valid/basic/skip/comment.wacc
+# simple skip program with comment line
+wacc_examples/valid/basic/skip/commentEoF.wacc
+# simple skip program with comment line ended by EoF not EoL
+wacc_examples/valid/basic/skip/commentInLine.wacc
+# simple skip program with in-line comment
+wacc_examples/valid/basic/skip/skip.wacc
+# simple skip program
+wacc_examples/valid/expressions/andExpr.wacc
+# evaluating and
+wacc_examples/valid/expressions/andOverOrExpr.wacc
+# evaluating boolean operator precedence
+wacc_examples/valid/expressions/boolCalc.wacc
+# simple boolean calculation
+wacc_examples/valid/expressions/boolExpr1.wacc
+# evaluating a moderately complex boolean expression
+wacc_examples/valid/expressions/charComparisonExpr.wacc
+# detailed battery of character comparison tests
+wacc_examples/valid/expressions/divExpr.wacc
+# evaluating integer division
+wacc_examples/valid/expressions/equalsExpr.wacc
+# evaluating equality
+wacc_examples/valid/expressions/equalsOverAnd.wacc
+# evaluating equality and boolean operator precedence
+wacc_examples/valid/expressions/equalsOverBool.wacc
+# evaluating equality and boolean operator precedence
+wacc_examples/valid/expressions/equalsOverOr.wacc
+# evaluating equality and boolean operator precedence
+wacc_examples/valid/expressions/greaterEqExpr.wacc
+# evaluating greater-than
+wacc_examples/valid/expressions/greaterExpr.wacc
+# evaluating greater-than
+wacc_examples/valid/expressions/intCalc.wacc
+# simple integer calculation
+wacc_examples/valid/expressions/intExpr1.wacc
+# evaluating a moderately complex integer expression
+wacc_examples/valid/expressions/lessCharExpr.wacc
+# evaluating less-than on characters
+wacc_examples/valid/expressions/lessEqExpr.wacc
+# evaluating less-than-or-equal-to
+wacc_examples/valid/expressions/lessExpr.wacc
+# evaluating less-than
+wacc_examples/valid/expressions/longExpr.wacc
+# tests whether the compiler can handle long expressions
+wacc_examples/valid/expressions/longExpr2.wacc
+# tests whether the compiler can handle long expressions
+wacc_examples/valid/expressions/longExpr3.wacc
+# tests whether the compiler can handle long expressions
+wacc_examples/valid/expressions/longSplitExpr.wacc
+# tests whether the compiler can handle long expressions with several variables
+wacc_examples/valid/expressions/longSplitExpr2.wacc
+# tests whether the compiler can handle long expressions with several variables
+wacc_examples/valid/expressions/minusExpr.wacc
+# evaluating subtraction
+wacc_examples/valid/expressions/minusMinusExpr.wacc
+# -- should be recognised as two separate symbols
+wacc_examples/valid/expressions/minusNoWhitespaceExpr.wacc
+# subtraction expressions should not be whitespace sensitive
+wacc_examples/valid/expressions/minusPlusExpr.wacc
+# -+ should be recognised as two separate symbols
+wacc_examples/valid/expressions/modExpr.wacc
+# evaluating modulus
+wacc_examples/valid/expressions/multExpr.wacc
+# evaluating multiplication
+wacc_examples/valid/expressions/multNoWhitespaceExpr.wacc
+# multiplication expressions should not be whitespace sensitive
+wacc_examples/valid/expressions/negBothDiv.wacc
+# division of a negative number by a negative number
+wacc_examples/valid/expressions/negBothMod.wacc
+# modulus of a negative number by a negative number
+wacc_examples/valid/expressions/negDividendDiv.wacc
+# division of a negative number
+wacc_examples/valid/expressions/negDividendMod.wacc
+# modulus of a negative number
+wacc_examples/valid/expressions/negDivisorDiv.wacc
+# division by a negative number
+wacc_examples/valid/expressions/negDivisorMod.wacc
+# modulus by a negative number
+wacc_examples/valid/expressions/negExpr.wacc
+# evaluating negation
+wacc_examples/valid/expressions/notExpr.wacc
+# evaluating not
+wacc_examples/valid/expressions/notequalsExpr.wacc
+# evaluating inequality
+wacc_examples/valid/expressions/orExpr.wacc
+# evaluating or
+wacc_examples/valid/expressions/ordAndchrExpr.wacc
+# evalutaing ord and chr
+wacc_examples/valid/expressions/plusExpr.wacc
+# evaluating addition
+wacc_examples/valid/expressions/plusMinusExpr.wacc
+# +- should be recognised as two separate symbols
+wacc_examples/valid/expressions/plusNoWhitespaceExpr.wacc
+# addition expressions should not be whitespace sensitive
+wacc_examples/valid/expressions/plusPlusExpr.wacc
+# ++ should be recognised as two separate symbols
+wacc_examples/valid/expressions/sequentialCount.wacc
+# simple sequential counting
+wacc_examples/valid/expressions/stringEqualsExpr.wacc
+# evaluating string equality
+wacc_examples/valid/function/nested_functions/fibonacciFullRec.wacc
+# recursively calculate the nth fibonacci number
+wacc_examples/valid/function/nested_functions/fibonacciRecursive.wacc
+# recursive calculation of the first 20 fibonacci numbers
+wacc_examples/valid/function/nested_functions/fixedPointRealArithmetic.wacc
+# This program implements floating-point type using integers.
+wacc_examples/valid/function/nested_functions/functionConditionalReturn.wacc
+# program has function which only contains an if statement and a return in each branch
+wacc_examples/valid/function/nested_functions/mutualRecursion.wacc
+# a pair of mutually recursive functions
+wacc_examples/valid/function/nested_functions/printInputTriangle.wacc
+# print a user-specified sized triangle
+wacc_examples/valid/function/nested_functions/printTriangle.wacc
+# print a fixed size triangle
+wacc_examples/valid/function/nested_functions/simpleRecursion.wacc
+# a simple recursive function
+wacc_examples/valid/function/simple_functions/argScopeCanBeShadowed.wacc
+# Arguments can be shadowed by the function body
+wacc_examples/valid/function/simple_functions/asciiTable.wacc
+# print out a lookup table for Ascii character representations
+wacc_examples/valid/function/simple_functions/functionDeclaration.wacc
+# a simple function is declared, but not called
+wacc_examples/valid/function/simple_functions/functionDoubleReturn.wacc
+# a simple function with two back-to-back returns at the end.
+wacc_examples/valid/function/simple_functions/functionIfReturns.wacc
+# a simple function with nested returns inside an if-statement after a return
+wacc_examples/valid/function/simple_functions/functionManyArguments.wacc
+# a function with varied inputs
+wacc_examples/valid/function/simple_functions/functionMultiReturns.wacc
+# a simple function with multiple returns, importantly one at the end.
+wacc_examples/valid/function/simple_functions/functionReturnPair.wacc
+# creates a pair which is returned from a function
+wacc_examples/valid/function/simple_functions/functionSimple.wacc
+# a simple function definition and call
+wacc_examples/valid/function/simple_functions/functionSimpleLoop.wacc
+# define and call a function with a simple loop
+wacc_examples/valid/function/simple_functions/functionUpdateParameter.wacc
+# test that the passed parameter can be updated and used
+wacc_examples/valid/function/simple_functions/incFunction.wacc
+# a simple increment function definition and usage
+wacc_examples/valid/function/simple_functions/manyArgumentsChar.wacc
+# tests a function with more arguments than fit into registers
+wacc_examples/valid/function/simple_functions/manyArgumentsInt.wacc
+# tests a function with more arguments than fit into registers
+wacc_examples/valid/function/simple_functions/negFunction.wacc
+# a simple negation function definition and usage
+wacc_examples/valid/function/simple_functions/punning.wacc
+# Functions should be able to have the same name as variables
+wacc_examples/valid/function/simple_functions/sameArgName.wacc
+# program with function that has same parameter name as function
+wacc_examples/valid/function/simple_functions/sameArgName2.wacc
+# program with function that has same parameter name as function
+wacc_examples/valid/function/simple_functions/sameNameAsVar.wacc
+# program with function that has same name as a variable
+wacc_examples/valid/function/simple_functions/usesArgumentWhilstMakingArgument.wacc
+# tests a function with more arguments than fit into registers
+wacc_examples/valid/if/if1.wacc
+# Simple conditional statement with int comparison test
+wacc_examples/valid/if/if2.wacc
+# Simple conditional statement with int comparison test
+wacc_examples/valid/if/if3.wacc
+# Simple conditional statement with int comparison test
+wacc_examples/valid/if/if4.wacc
+# Simple conditional statement with boolen expression test
+wacc_examples/valid/if/if5.wacc
+# Simple conditional statement with boolen expression test
+wacc_examples/valid/if/if6.wacc
+# Simple conditional statement with character comparison test
+wacc_examples/valid/if/ifBasic.wacc
+# simple if statement
+wacc_examples/valid/if/ifFalse.wacc
+# simple false if statement
+wacc_examples/valid/if/ifTrue.wacc
+# simple true if statement
+wacc_examples/valid/if/whitespace.wacc
+# Whitespace only important between keyword and variable tokens
+wacc_examples/valid/pairs/checkRefPair.wacc
+# create a pair(int, char) with a second reference to it and check it works
+wacc_examples/valid/pairs/createPair.wacc
+# create a pair (int, int)
+wacc_examples/valid/pairs/createPair02.wacc
+# create a pair (char, char)
+wacc_examples/valid/pairs/createPair03.wacc
+# create a pair (int, char)
+wacc_examples/valid/pairs/createRefPair.wacc
+# create a pair(int, char) with a second reference to it
+wacc_examples/valid/pairs/free.wacc
+# Create and free a simple pair
+wacc_examples/valid/pairs/linkedList.wacc
+# create and print a linked list using pairs
+wacc_examples/valid/pairs/nestedPair.wacc
+# create a pair (int, pair (int, int) )
+wacc_examples/valid/pairs/nestedPairLeftAssign.wacc
+# nested pair assignments are legal as long as the right hand-side type is known
+wacc_examples/valid/pairs/nestedPairRightExtract.wacc
+# nested pair extractions are legal as long as the left hand-side type is known
+wacc_examples/valid/pairs/null.wacc
+# null pair assignment
+wacc_examples/valid/pairs/pairarray.wacc
+# ensures that pairs can be unpacked directly from arrays
+wacc_examples/valid/pairs/printNull.wacc
+# print the null reference
+wacc_examples/valid/pairs/printNullPair.wacc
+# print pair a null pair
+wacc_examples/valid/pairs/printPair.wacc
+# print pair program
+wacc_examples/valid/pairs/printPairOfNulls.wacc
+# print a pair of null pairs
+wacc_examples/valid/pairs/readPair.wacc
+# construct a pair from supplied user input
+wacc_examples/valid/pairs/writeFst.wacc
+# create a pair and write to its first element
+wacc_examples/valid/pairs/writeSnd.wacc
+# create a pair and write to its second element
+wacc_examples/valid/runtimeErr/arrayOutOfBounds/arrayNegBounds.wacc
+# attempt out of bounds array access (this ought to seg fault or similar)
+wacc_examples/valid/runtimeErr/arrayOutOfBounds/arrayOutOfBounds.wacc
+# attempt out of bounds array access (this ought to seg fault or similar)
+wacc_examples/valid/runtimeErr/arrayOutOfBounds/arrayOutOfBoundsWrite.wacc
+# attempt write out of array bounds (gods, this really should not work!)
+wacc_examples/valid/runtimeErr/divideByZero/divZero.wacc
+# division by zero
+wacc_examples/valid/runtimeErr/divideByZero/divideByZero.wacc
+# attempt divide by zero
+wacc_examples/valid/runtimeErr/divideByZero/modByZero.wacc
+# attempt modulo by zero
+wacc_examples/valid/runtimeErr/integerOverflow/intJustOverflow.wacc
+# integer overflow
+wacc_examples/valid/runtimeErr/integerOverflow/intUnderflow.wacc
+# integer underflow
+wacc_examples/valid/runtimeErr/integerOverflow/intWayOverflow.wacc
+# positive overflow
+wacc_examples/valid/runtimeErr/integerOverflow/intmultOverflow.wacc
+# integer overflow - generates odd assembly error!
+wacc_examples/valid/runtimeErr/integerOverflow/intnegateOverflow.wacc
+# negating biggest possible negative integer
+wacc_examples/valid/runtimeErr/integerOverflow/intnegateOverflow2.wacc
+# multiplying the biggest possible negative integer
+wacc_examples/valid/runtimeErr/integerOverflow/intnegateOverflow3.wacc
+# multiplying a negative integer
+wacc_examples/valid/runtimeErr/integerOverflow/intnegateOverflow4.wacc
+# negative overflow
+wacc_examples/valid/runtimeErr/nullDereference/freeNull.wacc
+# Create and free a null pair
+wacc_examples/valid/runtimeErr/nullDereference/readNull1.wacc
+# attempt dereference of a null pair by reading into an element of it
+wacc_examples/valid/runtimeErr/nullDereference/readNull2.wacc
+# attempt dereference of a null pair by reading into an element of it
+wacc_examples/valid/runtimeErr/nullDereference/setNull1.wacc
+# attempt dereference of a null pair by setting an element of it
+wacc_examples/valid/runtimeErr/nullDereference/setNull2.wacc
+# attempt dereference of a null pair by setting an element of it
+wacc_examples/valid/runtimeErr/nullDereference/useNull1.wacc
+# attempt dereference of a null pair by using it
+wacc_examples/valid/runtimeErr/nullDereference/useNull2.wacc
+# attempt dereference of a null pair by using it
+wacc_examples/valid/scope/ifNested1.wacc
+# Nested conditional statement
+wacc_examples/valid/scope/ifNested2.wacc
+# Deeply nested conditional statement
+wacc_examples/valid/scope/indentationNotImportant.wacc
+# consistent indentation is for readability purposes only
+wacc_examples/valid/scope/intsAndKeywords.wacc
+# checking handling of ints and keywords
+wacc_examples/valid/scope/printAllTypes.wacc
+# Tests scoping with most variable types
+wacc_examples/valid/scope/scope.wacc
+# simple scoping test
+wacc_examples/valid/scope/scopeBasic.wacc
+# very simple scoping test
+wacc_examples/valid/scope/scopeIfRedefine.wacc
+# variable scoping test that redefines a variable within an if-statement
+wacc_examples/valid/scope/scopeRedefine.wacc
+# more complex variable scoping test that redefines a variable
+wacc_examples/valid/scope/scopeSimpleRedefine.wacc
+# variable scoping test that redefines a variable
+wacc_examples/valid/scope/scopeVars.wacc
+# simple variable scoping test
+wacc_examples/valid/scope/scopeWhileNested.wacc
+# variable scoping nested within a while-loop
+wacc_examples/valid/scope/scopeWhileRedefine.wacc
+# variable scoping test that redefines a variable within a while-loop
+wacc_examples/valid/scope/splitScope.wacc
+# splits the first appearances of variables by a new scope to ensure proper grouping
+wacc_examples/valid/sequence/basicSeq.wacc
+# basic sequential composition
+wacc_examples/valid/sequence/basicSeq2.wacc
+# basic sequential composition
+wacc_examples/valid/sequence/boolAssignment.wacc
+# simple boolean variable declaration and assignment
+wacc_examples/valid/sequence/charAssignment.wacc
+# simple character variable declaration and assignment
+wacc_examples/valid/sequence/exitSimple.wacc
+# exit with unreachable print
+wacc_examples/valid/sequence/intAssignment.wacc
+# simple integer variable declaration and assignment
+wacc_examples/valid/sequence/intLeadingZeros.wacc
+# integer variable declaration with leading zeroes
+wacc_examples/valid/sequence/stringAssignment.wacc
+# simple string variable declaration and assignment
+wacc_examples/valid/variables/_VarNames.wacc
+# variable can have _ in their names
+wacc_examples/valid/variables/boolDeclaration.wacc
+# simple boolean variable declaration
+wacc_examples/valid/variables/boolDeclaration2.wacc
+# simple true boolean variable declaration
+wacc_examples/valid/variables/capCharDeclaration.wacc
+# simple capital character variable declaration
+wacc_examples/valid/variables/charDeclaration.wacc
+# simple character variable declaration
+wacc_examples/valid/variables/charDeclaration2.wacc
+# simple character variable declaration
+wacc_examples/valid/variables/emptyStringDeclaration.wacc
+# simple empty string variable declaration
+wacc_examples/valid/variables/intDeclaration.wacc
+# simple integer variable declaration
+wacc_examples/valid/variables/longVarNames.wacc
+# variable can have very long names
+wacc_examples/valid/variables/manyVariables.wacc
+# creates 257 variables
+wacc_examples/valid/variables/negIntDeclaration.wacc
+# simple negative integer variable declaration
+wacc_examples/valid/variables/puncCharDeclaration.wacc
+# simple punctuation character variable declaration
+wacc_examples/valid/variables/stringCarriageReturn.wacc
+# carriage returns should be parsable, but their behaviour is non-portable, so the IO is not currently tested
+wacc_examples/valid/variables/stringDeclaration.wacc
+# simple string variable declaration
+wacc_examples/valid/variables/zeroIntDeclaration.wacc
+# simple zero integer variable declaration
+wacc_examples/valid/while/fibonacciFullIt.wacc
+# iteratively calculate the given fibonacci number
+wacc_examples/valid/while/fibonacciIterative.wacc
+# iterative calculation of the first 20 fibonacci numbers
+wacc_examples/valid/while/loopCharCondition.wacc
+# Use a character as a loop condition. Enter the loop once only, then exit the loop.
+wacc_examples/valid/while/loopIntCondition.wacc
+# Use an integer as a loop condition. Enter the loop once only, then exit the loop.
+wacc_examples/valid/while/max.wacc
+# find the max of two numbers
+wacc_examples/valid/while/min.wacc
+# find the min of two numbers
+wacc_examples/valid/while/rmStyleAdd.wacc
+# register machine style addition
+wacc_examples/valid/while/rmStyleAddIO.wacc
+# register machine style addition
+wacc_examples/valid/while/whileBasic.wacc
+# simple while loop
+wacc_examples/valid/while/whileBoolFlip.wacc
+# while loop flips bool to terminate
+wacc_examples/valid/while/whileCount.wacc
+# simple counting while loop
+wacc_examples/valid/while/whileFalse.wacc
+# simple unentered while loop
+fin.

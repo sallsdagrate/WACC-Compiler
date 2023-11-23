@@ -1,0 +1,310 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(8f0ea4e4-c566-4726-840f-39f5a74ae7ef), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 7 Scala sources to /homes/ag720/wacc_15/src/test/scala/wacc/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.matchers.should._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:5:8: not found: object parsley[0m
+[0m[[0m[31merror[0m] [0m[0mimport parsley.io.ParseFromIO[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:6:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.funsuite.AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:7:8: not found: object parsley[0m
+[0m[[0m[31merror[0m] [0m[0mimport parsley.Success[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:10:28: not found: type AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass BackendTests extends AnyFunSuite with Matchers{[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:10:45: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass BackendTests extends AnyFunSuite with Matchers{[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:12:1: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0mtest("myfirstbackendtest") {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:13:22: not found: value Parser[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("test.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:13:7: not found: value Success[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("test.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:15:3: not found: value Semantic[0m
+[0m[[0m[31merror[0m] [0m[0m  Semantic.semanticAnalysis(ast) match {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:16:10: not found: value Tables[0m
+[0m[[0m[31merror[0m] [0m[0m    case Tables(_) => {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:17:28: not found: value Writer[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:17:49: not found: value Generator[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/BackendTests.scala:26:9: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m        fail("Unsuccessful gcc assembling")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/ExampleWACCTests.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.matchers.should._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/ExampleWACCTests.scala:5:8: not found: object parsley[0m
+[0m[[0m[31merror[0m] [0m[0mimport parsley.io.ParseFromIO[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/ExampleWACCTests.scala:6:8: not found: object parsley[0m
+[0m[[0m[31merror[0m] [0m[0mimport parsley.Success[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/ExampleWACCTests.scala:7:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.funsuite.AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/ExampleWACCTests.scala:10:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.Inspectors.forEvery[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/ExampleWACCTests.scala:13:32: not found: type AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass ExampleWACCTests extends AnyFunSuite with Matchers{[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/ExampleWACCTests.scala:13:49: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass ExampleWACCTests extends AnyFunSuite with Matchers{[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/ExampleWACCTests.scala:30:19: value addOne is not a member of scala.collection.mutable.ListBuffer[(String, String)][0m
+[0m[[0m[31merror[0m] [0m[0m      listBuilder.addOne((exPath, exDesc))[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:4:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.Tag[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:5:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.matchers.should.Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:7:8: not found: object parsley[0m
+[0m[[0m[31merror[0m] [0m[0mimport parsley.io.ParseFromIO[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:8:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.funsuite.AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:9:8: not found: object parsley[0m
+[0m[[0m[31merror[0m] [0m[0mimport parsley.Success[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:13:37: not found: type AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass GeneratedBackendTests extends AnyFunSuite with Matchers{[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:13:54: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass GeneratedBackendTests extends AnyFunSuite with Matchers{[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:15:1: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/IOLoop.wacc", Tag("wacc_examples/valid/IO")) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:15:44: not found: value Tag[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/IOLoop.wacc", Tag("wacc_examples/valid/IO")) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:35:22: not found: value Parser[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/IOLoop.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:35:7: not found: value Success[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/IOLoop.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:36:3: not found: value Semantic[0m
+[0m[[0m[31merror[0m] [0m[0m  Semantic.semanticAnalysis(ast) match {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:37:10: not found: value Tables[0m
+[0m[[0m[31merror[0m] [0m[0m    case Tables(_) => {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:38:28: not found: value Writer[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:38:49: not found: value Generator[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:44:9: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m        fail("Unsuccessful gcc assembling")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:54:1: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/IOSequence.wacc", Tag("wacc_examples/valid/IO")) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:54:48: not found: value Tag[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/IOSequence.wacc", Tag("wacc_examples/valid/IO")) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:57:22: not found: value Parser[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/IOSequence.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:57:7: not found: value Success[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/IOSequence.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:58:3: not found: value Semantic[0m
+[0m[[0m[31merror[0m] [0m[0m  Semantic.semanticAnalysis(ast) match {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:59:10: not found: value Tables[0m
+[0m[[0m[31merror[0m] [0m[0m    case Tables(_) => {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:60:28: not found: value Writer[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:60:49: not found: value Generator[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:66:9: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m        fail("Unsuccessful gcc assembling")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:76:1: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/print/hashInProgram.wacc", Tag("wacc_examples/valid/IO/print")) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:76:57: not found: value Tag[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/print/hashInProgram.wacc", Tag("wacc_examples/valid/IO/print")) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:80:22: not found: value Parser[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/print/hashInProgram.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:80:7: not found: value Success[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/print/hashInProgram.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:81:3: not found: value Semantic[0m
+[0m[[0m[31merror[0m] [0m[0m  Semantic.semanticAnalysis(ast) match {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:82:10: not found: value Tables[0m
+[0m[[0m[31merror[0m] [0m[0m    case Tables(_) => {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:83:28: not found: value Writer[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:83:49: not found: value Generator[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:89:9: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m        fail("Unsuccessful gcc assembling")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:99:1: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/print/multipleStringsAssignment.wacc", Tag("wacc_examples/valid/IO/print")) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:99:69: not found: value Tag[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/print/multipleStringsAssignment.wacc", Tag("wacc_examples/valid/IO/print")) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:108:22: not found: value Parser[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/print/multipleStringsAssignment.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:108:7: not found: value Success[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/print/multipleStringsAssignment.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:109:3: not found: value Semantic[0m
+[0m[[0m[31merror[0m] [0m[0m  Semantic.semanticAnalysis(ast) match {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:110:10: not found: value Tables[0m
+[0m[[0m[31merror[0m] [0m[0m    case Tables(_) => {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:111:28: not found: value Writer[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:111:49: not found: value Generator[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:117:9: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m        fail("Unsuccessful gcc assembling")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:127:1: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/print/print-backspace.wacc", Tag("wacc_examples/valid/IO/print")) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:127:59: not found: value Tag[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/print/print-backspace.wacc", Tag("wacc_examples/valid/IO/print")) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:130:22: not found: value Parser[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/print/print-backspace.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:130:7: not found: value Success[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/print/print-backspace.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:131:3: not found: value Semantic[0m
+[0m[[0m[31merror[0m] [0m[0m  Semantic.semanticAnalysis(ast) match {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:132:10: not found: value Tables[0m
+[0m[[0m[31merror[0m] [0m[0m    case Tables(_) => {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:133:28: not found: value Writer[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:133:49: not found: value Generator[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:139:9: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m        fail("Unsuccessful gcc assembling")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:149:1: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/print/print.wacc", Tag("wacc_examples/valid/IO/print")) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:149:49: not found: value Tag[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/print/print.wacc", Tag("wacc_examples/valid/IO/print")) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:151:22: not found: value Parser[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/print/print.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:151:7: not found: value Success[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/print/print.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:152:3: not found: value Semantic[0m
+[0m[[0m[31merror[0m] [0m[0m  Semantic.semanticAnalysis(ast) match {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:153:10: not found: value Tables[0m
+[0m[[0m[31merror[0m] [0m[0m    case Tables(_) => {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:154:28: not found: value Writer[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:154:49: not found: value Generator[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:160:9: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m        fail("Unsuccessful gcc assembling")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:172:1: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/print/printBool.wacc", Tag("wacc_examples/valid/IO/print")) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:172:53: not found: value Tag[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/print/printBool.wacc", Tag("wacc_examples/valid/IO/print")) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:176:22: not found: value Parser[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/print/printBool.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:176:7: not found: value Success[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/print/printBool.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:177:3: not found: value Semantic[0m
+[0m[[0m[31merror[0m] [0m[0m  Semantic.semanticAnalysis(ast) match {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:178:10: not found: value Tables[0m
+[0m[[0m[31merror[0m] [0m[0m    case Tables(_) => {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:179:28: not found: value Writer[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:179:49: not found: value Generator[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:185:9: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m        fail("Unsuccessful gcc assembling")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:195:1: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/print/printChar.wacc", Tag("wacc_examples/valid/IO/print")) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:195:53: not found: value Tag[0m
+[0m[[0m[31merror[0m] [0m[0mtest("wacc_examples/valid/IO/print/printChar.wacc", Tag("wacc_examples/valid/IO/print")) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:198:22: not found: value Parser[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/print/printChar.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:198:7: not found: value Success[0m
+[0m[[0m[31merror[0m] [0m[0m  val Success(ast) = Parser.code.parseFromFile(new File("wacc_examples/valid/IO/print/printChar.wacc")).get[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:199:3: not found: value Semantic[0m
+[0m[[0m[31merror[0m] [0m[0m  Semantic.semanticAnalysis(ast) match {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:200:10: not found: value Tables[0m
+[0m[[0m[31merror[0m] [0m[0m    case Tables(_) => {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:201:28: not found: value Writer[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/homes/ag720/wacc_15/src/test/scala/wacc/GeneratedBackendTests.scala:201:49: not found: value Generator[0m
+[0m[[0m[31merror[0m] [0m[0m      val assembly: File = Writer.writeTempFile(Generator.generate(ast))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m100 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 27 Feb 2023, 16:25:31[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

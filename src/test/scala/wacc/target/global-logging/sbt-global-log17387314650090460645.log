@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(scalatest: wacc_examples/valid/IO, Some(ef682ac2-93e1-4c42-9c78-b85f4a7e50f7), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mExpected key[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '*'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'Zero'[0m
+[0m[[0m[31merror[0m] [0m[0mscalatest: wacc_examples/valid/IO[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
