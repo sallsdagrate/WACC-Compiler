@@ -1,5 +1,4 @@
-This is the provided git repository for the WACC compilers lab. You should work
-in this repository regularly committing and pushing your work back to GitLab.
+Compiler for the WACC language. Performs Syntax and Semantic Analysis before arm assembly code generation.
 
 # Provided files/directories
 
